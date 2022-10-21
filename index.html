@@ -57,6 +57,13 @@
               <p class="profile__info-description">Support <br> Online</p>
             </div>
           </div>
+          <div class="profile__info grid">
+            <div class="profile__info-group">
+              <h3 class="profile__info-number" id="visits"></h3>
+              <p class="profile__info-description">
+                Jumlah <br> Pengunjung
+              </p>
+            </div>
           
           <div class="profile__buttons">
             <a href="#" class="button" onclick="showMessageCV()">
@@ -203,6 +210,12 @@
         Swal.fire("Coming Soon!")
       }
       </script>
+      <script>
+        function cb(response) {
+            document.getElementById('visits').innerText = response.value;
+        }
+      </script>
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script async src="https://api.countapi.xyz/hit/yukkkiii.my.id/visits?callback=cb"></script>
   </body>
 </html>
