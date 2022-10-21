@@ -15,7 +15,7 @@ function myTimer() {
             bottom: 60
         }, // atur posisi notifikasi
         textAlign: 'left', // perataan isi teks. left, center, right
-        loader: true, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
+        loader: false, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
         loaderBg: '#99b898', // kode warna untuk loading notifikasi, temukan lebih banyak warna di https://colorhunt.co
     });
     clearInterval(myVar);
@@ -38,7 +38,7 @@ function myTimer2() {
             bottom: 60
         }, // atur posisi notifikasi
         textAlign: 'left', // perataan isi teks. left, center, right
-        loader: true, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
+        loader: false, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
         loaderBg: '#99b898', // kode warna untuk loading notifikasi, temukan lebih banyak warna di https://colorhunt.co
     });
     clearInterval(myVar2);
@@ -61,7 +61,7 @@ function myTimer3() {
             bottom: 60
         }, // atur posisi notifikasi
         textAlign: 'left', // perataan isi teks. left, center, right
-        loader: true, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
+        loader: false, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
         loaderBg: '#99b898', // kode warna untuk loading notifikasi, temukan lebih banyak warna di https://colorhunt.co
     });
     clearInterval(myVar3);
@@ -84,7 +84,7 @@ function myTimer4() {
             bottom: 60
         }, // atur posisi notifikasi
         textAlign: 'left', // perataan isi teks. left, center, right
-        loader: true, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
+        loader: false, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
         loaderBg: '#99b898', // kode warna untuk loading notifikasi, temukan lebih banyak warna di https://colorhunt.co
     });
     clearInterval(myVar4);

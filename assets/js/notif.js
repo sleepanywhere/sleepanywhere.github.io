@@ -1,7 +1,7 @@
 function sukses() {
     $.notifikasi({
-        judulnotifikasi: 'Notifikasi Sukses', // judul notifikasi
-        text: "ini adalah contoh notifikasi sukses", // isi notifikasi
+        judulnotifikasi: 'Sukses', // judul notifikasi
+        text: "Website Sukses Dimuat", // isi notifikasi
         ikon: 'sukses', // Tipe ikon sukses, error, peringatan, kustom
         transisi: 'slide', // tipe transisi slide, fade, plain
         AutoTutup: true, // ijinkan notifikasi menutup dengan otomatis. true untuk iya, false untuk tidak
@@ -20,8 +20,8 @@ function sukses() {
 
 function eror() {
     $.notifikasi({
-        judulnotifikasi: 'Notifikasi Error', // judul notifikasi
-        text: "Ini adalah contoh notifikasi error", // isi notifikasi
+        judulnotifikasi: 'Error', // judul notifikasi
+        text: "Tindakan Tidak Dapat Di Lakukan", // isi notifikasi
         ikon: 'eror', // Tipe ikon sukses, error, peringatan, kustom
         transisi: 'slide', // tipe transisi slide, fade, plain
         AutoTutup: true, // ijinkan notifikasi menutup dengan otomatis. true untuk iya, false untuk tidak
@@ -40,8 +40,8 @@ function eror() {
 
 function peringatan() {
     $.notifikasi({
-        judulnotifikasi: 'Notifikasi Peringatan', // judul notifikasi
-        text: "Ini adalah contoh notifikasi Peringatan", // isi notifikasi
+        judulnotifikasi: 'Peringatan', // judul notifikasi
+        text: "", // isi notifikasi
         ikon: 'peringatan', // Tipe ikon sukses, error, peringatan, kustom
         transisi: 'slide', // tipe transisi slide, fade, plain
         AutoTutup: true, // ijinkan notifikasi menutup dengan otomatis. true untuk iya, false untuk tidak
@@ -60,8 +60,8 @@ function peringatan() {
 
 function kustom() {
     $.notifikasi({
-        judulnotifikasi: 'Notifikasi Kustom', // judul notifikasi
-        text: "Ini adalah contoh notifikasi Kustom", // isi notifikasi
+        judulnotifikasi: 'Yuki', // judul notifikasi
+        text: "", // isi notifikasi
         ikon: 'kustom', // Tipe ikon sukses, error, peringatan, kustom
         transisi: 'slide', // tipe transisi slide, fade, plain
         AutoTutup: true, // ijinkan notifikasi menutup dengan otomatis. true untuk iya, false untuk tidak
