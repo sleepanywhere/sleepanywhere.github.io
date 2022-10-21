@@ -1,7 +1,7 @@
 function sukses() {
     $.notifikasi({
         judulnotifikasi: 'Sukses', // judul notifikasi
-        text: "Website Sukses Dimuat", // isi notifikasi
+        text: "Aksi Berhasil Dilakukan", // isi notifikasi
         ikon: 'sukses', // Tipe ikon sukses, error, peringatan, kustom
         transisi: 'slide', // tipe transisi slide, fade, plain
         AutoTutup: true, // ijinkan notifikasi menutup dengan otomatis. true untuk iya, false untuk tidak
