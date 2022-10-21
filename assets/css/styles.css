@@ -668,6 +668,8 @@ body.dark-theme {
   50% { color: blue; }
   100% { color: red; }
 }
+
+
 .kiri {
     float: left;
     margin-left: 6%;

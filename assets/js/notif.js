@@ -33,7 +33,7 @@ function eror() {
             bottom: 60
         }, // atur posisi notifikasi
         textAlign: 'left', // perataan isi teks. left, center, right
-        loader: true, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
+        loader: false, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
         loaderBg: '#99b898', // kode warna untuk loading notifikasi, temukan lebih banyak warna di https://colorhunt.co
     });
 }
@@ -53,7 +53,7 @@ function peringatan() {
             bottom: 60
         }, // atur posisi notifikasi
         textAlign: 'left', // perataan isi teks. left, center, right
-        loader: true, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
+        loader: false, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
         loaderBg: '#99b898', // kode warna untuk loading notifikasi, temukan lebih banyak warna di https://colorhunt.co
     });
 }
@@ -73,7 +73,7 @@ function kustom() {
             bottom: 60
         }, // atur posisi notifikasi
         textAlign: 'left', // perataan isi teks. left, center, right
-        loader: true, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
+        loader: false, // tampilkan loading notifikasi. true untuk iya, false untuk tidak
         loaderBg: '#99b898', // kode warna untuk loading notifikasi, temukan lebih banyak warna di https://colorhunt.co
     });
 }
