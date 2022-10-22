@@ -106,22 +106,13 @@ Example.slingshot = function() {
 // not required to use Matter.js
 
 MatterTools.Demo.create({
-  toolbar: {
-    title: 'matter-js',
-    url: 'https://github.com/liabru/matter-js',
-    reset: true,
-    source: true,
-    fullscreen: true,
-    exampleSelect: true
-  },
   preventZoom: true,
   resetOnOrientation: true,
   examples: [
     {
       name: 'Slingshot',
       id: 'slingshot',
-      init: Example.slingshot,
-      sourceLink: 'https://github.com/liabru/matter-js/blob/master/examples/slingshot.js'
+      init: Example.slingshot
     }
   ]
 });
