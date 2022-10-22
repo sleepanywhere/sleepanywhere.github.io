@@ -1597,15 +1597,15 @@ menu.init = function() {
   // custom data
   this.button = [
     {
-      name: "PLAY",
+      name: "Mulai",
       link: "inGame"
     },
     {
-      name: "SELECT",
+      name: "Level",
       link: "levels"
     },
     {
-      name: "CONTROLS",
+      name: "Kontrol",
       link: "controls"
     }
   ];
@@ -1648,13 +1648,13 @@ menu.render = function() {
   this.world.ctx.fillRect(0, this.world.H - 50, this.world.W, 33);
   this.world.setFont("origami_light");
   this.world.write(
-    "Arrow keys to select",
+    "Tombol Arah Untuk Memilih",
     this.world.W / 2,
     this.world.H - 46,
     "center"
   );
   this.world.write(
-    "[x] to Confirm",
+    "[ x ] Untuk Konfirmasi",
     this.world.W / 2,
     this.world.H - 30,
     "center"
