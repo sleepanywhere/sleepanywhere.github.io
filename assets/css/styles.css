@@ -281,6 +281,11 @@ body.dark-theme {
   border: 2px solid var(--first-color);
   color: var(--first-color);
 }
+          <div class="profile__buttons">
+            <button href="#" class="button"  onclick="eror()">
+              Download CV 
+            </button>
+          </div>
 */
 button {
  --border-radius: 15px;
