@@ -133,8 +133,8 @@ body.dark-theme {
 
 .container {
   max-width: 968px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .grid {
@@ -641,8 +641,8 @@ button:active {
   }
 
   .filters__content {
-    width: 400px;
-    margin: 4rem auto;
+    width: 332px;
+    margin: 3rem auto;
   }
 }
 
