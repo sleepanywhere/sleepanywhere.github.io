@@ -132,9 +132,9 @@ body.dark-theme {
 /* REUSABLE CSS CLASSES */
 
 .container {
-  max-width: 1000px;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .grid {
@@ -642,7 +642,7 @@ button:active {
 
   .filters__content {
     width: 332px;
-    margin: 3rem auto;
+    margin: 5rem auto;
   }
 }
 
