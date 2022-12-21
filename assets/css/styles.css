@@ -354,7 +354,7 @@ button:active {
 }
 /*=============== FILTERS TABS===============*/
 .filters__content {
-  margin: 2rem 0 2.5rem;
+  margin: 7rem 0 2.5rem;
   background-color: var(--text-color-lighten);
   padding: 375px;
   border-radius: .75rem;
