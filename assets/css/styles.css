@@ -354,13 +354,13 @@ button:active {
 }
 /*=============== FILTERS TABS===============*/
 .filters__content {
-  margin: 2rem 0 2.5rem;
+  margin: 8rem 0 2.5rem;
   background-color: var(--text-color-lighten);
   padding: .375rem;
   border-radius: .75rem;
   display: flex;
   justify-content: space-between;
-  column-gap: .2rem;
+  column-gap: .6rem;
 }
 
 .filters__button {
