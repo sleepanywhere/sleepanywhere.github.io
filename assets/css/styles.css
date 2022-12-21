@@ -616,8 +616,8 @@ button:active {
 /* For small devices */
 @media screen and (max-width: 320px) {
   .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   .profile__info {
@@ -641,7 +641,7 @@ button:active {
   }
 
   .filters__content {
-    width: 332px;
+    width: 500px;
     margin: 5rem auto;
   }
 }
