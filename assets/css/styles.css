@@ -132,7 +132,7 @@ body.dark-theme {
 /* REUSABLE CSS CLASSES */
 
 .container {
-  max-width: 968px;
+  max-width: 1000px;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
 }
