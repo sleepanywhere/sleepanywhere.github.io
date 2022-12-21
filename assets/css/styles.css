@@ -360,7 +360,7 @@ button:active {
   border-radius: .75rem;
   display: flex;
   justify-content: space-between;
-  column-gap: .8rem;
+  column-gap: .2rem;
 }
 
 .filters__button {
